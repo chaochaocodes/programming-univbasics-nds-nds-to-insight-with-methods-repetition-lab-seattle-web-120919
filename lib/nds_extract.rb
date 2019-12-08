@@ -13,7 +13,7 @@ def directors_totals(source) # input gross_for_director to AoH: { dir_name => gr
 end
 
 def gross_for_director(d) # calculate gross per director
-  # d = already drilled down into first index.
+  # d = already drilled down into first index, aka not d[i][:movies]
   total = 0
   index = 0
 
